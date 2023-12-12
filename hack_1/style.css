@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.box {
+    height: 70px;
+    width: 100vw;
+    background-color: #AB2849;
+    margin: 20px;
+}
+
+.d1 {
+    height: 110px;
+    background-color: #93B5C9;
+    margin: 0;
+    width: 100vw
+}
+
+.d2 {
+    height: 160px;
+    margin: 0 0 5px 0;
+}
+
+.d3, .d4, .d5, .d6 {
+    width: 85vw;
+    position: relative;
+    left: 219px;
+}
+
+.d7 {
+    position: relative;
+    /*width: 94vw;*/
+    width: 88vw;
+    top: 0px;
+    left: 20px;
+}
