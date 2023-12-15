@@ -1,28 +1,32 @@
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
+}
+
+.container {
+   margin: 0;
 }
 
 div {
     background: #AB2849;
-    height: 50px;
+    height: 93px;
     width: 100vw;
     margin: 10px 10px 10px 0px;
 }
 
 .d1 {
     background: #93B5C9;
-    height: 100px;
+    height: 170px;
     margin: 0px;
 }
 
 .d2 {
-    height: 200px;
+    height: 210px;
     margin: 0 0 15px 0;
 }
 
 .d3,.d4,.d5,.d6 {
-    width: 70vw;
-    float: right;
+    width: 85vw;
+    float: left;
     margin: 10px 0 10px 0;
 }
 
@@ -31,3 +35,4 @@ div {
     width: 90vw;
     margin: 10px auto;
     transform: translateX(-5%);
+}
