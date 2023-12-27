@@ -97,16 +97,23 @@ body {
     
 }
 
-span {
-    color: #00BF63;
+.box-title-footer {
+    margin: 30px;
 }
 
+
 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-f {
     width: 30px;
     height: 30px;
 }
 
 .ico {
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
 }
