@@ -104,7 +104,6 @@ body {
 
 .box-f {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -117,11 +116,14 @@ body {
 .f {
     width: 200px;
     height: 200px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .f-3 {
     width: 230px;
+    margin: 0;
+    position: relative;
+    top: 30px;
 }
 
 .box-ico {
@@ -131,10 +133,50 @@ body {
 }
 
 .tx {
-
+  float: right;
+  margin-top: 8px;
+  font-weight: 400;
 }
 
 .ico img {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
 }
+
+.ico-1 {
+    position: relative;
+    bottom: 600px;
+}
+
+.ico-2 {
+    position: relative;
+    bottom: 380px;
+}
+
+.ico-3 {
+    position: relative;
+    bottom: 125px;
+}
+
+.box-review {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.review-1 {
+    position: relative;
+    bottom: 750px;
+} 
+
+.review-2 {
+    position: relative;
+    bottom: 480px;
+    margin-left: 50px;
+} 
+
+.review-3 {
+    position: relative;
+    bottom: 195px;
+} 
