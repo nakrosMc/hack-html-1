@@ -29,7 +29,7 @@ body {
     width: 432px;
     /*border: solid red 2px;*/
     background-image: url("../img/2.png");
-    background-size: 100% 500px;
+    background-size: 101% 500px;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     height: 200px;
@@ -133,9 +133,9 @@ body {
 }
 
 .tx {
-  float: right;
-  margin-top: 8px;
-  font-weight: 400;
+    float: right;
+    margin-top: 8px;
+    font-weight: bold;
 }
 
 .ico img {
@@ -168,15 +168,74 @@ body {
 .review-1 {
     position: relative;
     bottom: 750px;
-} 
+}
 
 .review-2 {
     position: relative;
     bottom: 480px;
     margin-left: 50px;
-} 
+}
 
 .review-3 {
     position: relative;
     bottom: 195px;
-} 
+}
+
+.box-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #00BF63;
+    color: #EEEEEE;
+    position: relative;
+    bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 410px;
+}
+
+@media (min-width: 768px) {
+    .ball {
+        height: 30px;
+        width: 30px;
+        left: 80px;
+        top: 30px;
+    }
+
+    .header-1 {
+        font-size: 25px;
+    }
+
+    .header-2 {
+        font-size: 20px;
+    }
+
+    .box-main {
+        background-size: 800px 800px;
+        width: 770px;
+        height: 400px;
+        margin-top: 0;
+        font-size: 25px;
+    }
+
+    .main {
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    .main-1 {
+        margin-right: 500px;
+        margin-left: 20px;
+    }
+
+    .main-2 {
+        margin-right: 340px;
+        margin-left: 20px;
+    }
+
+    .main-3 {
+        margin-right: 340px;
+        margin-left: 20px;
+        border-left: solid 75px #00BF63;
+        margin-bottom: 30px;
+    }
