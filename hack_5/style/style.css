@@ -243,4 +243,39 @@ body {
     .main-4 {
         font-size: 15px;
         margin-right: 400px;
+        margin-left: 20px;
+    }
+
+    .main-5 {
+        font-size: 15px;
+        margin-right: 500px;
+        margin-left: 20px;
+    }
+
+    .box-title-footer {
+        margin-left: 100px;
+    }
+
+    .footer-2 {
+        position: relative;
+        bottom: 15px;
+    }
+
+    .box-f {
+        flex-direction: row;
+    }
+
+    .box-f img {
+        width: 100px;
+    }
+
+    .ico {
+        position: relative;
+        top: 0;
+        bottom: 0;
+    }
+
+    .review {
+        top: 0;
+        bottom: 0;
     }
