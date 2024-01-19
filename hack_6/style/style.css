@@ -5,66 +5,78 @@
 .box-header {
   background-image: url("../img/0.png");
   background-position: left center;
-  width: 2000px;
-  height: 700px;
-  background-size: 1600px 1900px;
+  width: 500px;
+  height: 300px;
+  background-size: 430px 800px;
   background-repeat: no-repeat;
-  border: solid #fff 1px;
   object-fit: contain;
+  position: relative;
+  bottom: 16px;
 }
 
 .bor {
   position: relative;
-  left: 120px;
+  top: 50px;
+  left: 35px;
   background-color: #000;
-  width: 300px;
-  height: 70px;
-  font-size: 40px;
+  width: 80px;
+  height: 30px;
   text-align: center;
-  line-height: 70px;
+  line-height: 30px;
   vertical-align: middle;
   border-radius: 30px;
-  margin-top: 80px;
   color: #fff;
-  font-weight: 300;
+  font-size: 10px;
 }
 
 .title {
   position: relative;
-  left: 120px;
-  font-size: 45px;
-  bottom: 60px;
+  top: 50px;
+  left: 35px;
+  font-size: 12px;
+  line-height: 35px;
 }
 
 .title-txt {
-  font-size: 37px;
+  font-size: 10px;
   position: relative;
-  left: 120px;
-  bottom: 90px;
+  left: 35px;
+  top: 50px;
+  width: 400px;
 }
 
 .green-ball {
-  font-size: 50px;
+  font-size: 15px;
   position: absolute;
-  left: 1050px;
-  width: 300px;
-  height: 300px;
+  top: 80px;
+  left: 280px;
+  width: 100px;
+  height: 100px;
   background: #00bf63;
-  border-radius: 200px;
+  border-radius: 100px;
   text-align: center;
-  line-height: 65px;
+  line-height: ;
   font-weight: 700;
   color: #fff;
+  text-align: center;
 }
 
 .green-ball p {
   position: absolute;
-  left: 80px;
-  top: 30px;
+  left: 25px;
+  top: 10px;
 }
 
 .green-ball span {
-  font-size: 70px;
+  font-size: 25px;
+}
+
+.box-chairs-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
 }
 
 .box-chairs img {
