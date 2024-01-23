@@ -231,7 +231,6 @@
     background: #00bf63;
     border-radius: 100px;
     text-align: center;
-    line-height: ;
     font-weight: 700;
     color: #fff;
     text-align: center;
@@ -327,21 +326,22 @@
 
   .box-footer {
     display: flex;
-    j
+    justify-content: center;
     position: relative;
     top: 200px;
   }
 
   .box-buy {
     background: #000;
-    width: 90%;
-    height: 80px;
-    
+    width: 100%;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 73px;
   }
 
   .buy {
-    font-size: 10px;
-    width: 90px;
+    font-size: 15px;
+    width: 110px;
     background: #00bf63;
     text-align: center;
     border-radius: 100px;
@@ -349,6 +349,186 @@
     position: relative;
     left: 50px;
     top: 23%;
-    height: 20px;
+    height: 30px;
+    line-height: 22.5px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    overflow-x: ;
+  }
+
+  .box-header {
+    background-size: 1900px 1800px;
+    width: 1870px;
+    height: 700px;
+    bottom: 35px;
+  }
+
+  .bor {
+    position: relative;
+    top: 120px;
+    left: 300px;
+    background-color: #000;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 25px;
+  }
+
+  .title {
+    position: relative;
+    top: 90px;
+    left: 300px;
+    font-size: 40px;
+    line-height: 100px;
+  }
+
+  .title-txt {
+    font-size: 30px;
+    position: relative;
+    left: 300px;
+    top: 60px;
+    width: 700px;
+  }
+
+  .green-ball {
+    font-size: 40px;
+    position: absolute;
+    top: 170px;
+    left: 1300px;
+    width: 280px;
+    height: 280px;
+    background: #00bf63;
+    border-radius: 200px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+  }
+
+  .green-ball p {
+    position: absolute;
+    left: 45px;
+    top: 30px;
+  }
+
+  .green-ball span {
+    font-size: 90px;
+  }
+
+  .box-main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    margin-right: 60px;
+  }
+
+  .box-chairs-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    flex-wrap: wrap;
+  }
+
+  .box-chairs img {
+    height: 350px;
+    width: 300px;
+    margin-bottom: 200px;
+  }
+
+  .c5 {
+    position: relative;
+    bottom: 0px;
+  }
+
+  .c6 {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  .chairs-tx {
+    position: absolute;
+    font-size: 20px;
+    background: red;
+  }
+
+  .chairs-tx span {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    margin-right: 30px;
+  }
+
+  .t1 {
+    position: relative;
+    top: 345px;
+    right: 500px;
+  }
+
+  .t2 {
+    position: relative;
+    top: 280px;
+    left: px;
+  }
+
+  .t3 {
+    position: relative;
+    top: 40px;
+    left: 200px;
+  }
+
+  .t4 {
+    position: relative;
+    top: 240px;
+    left: -15px;
+  }
+
+  .t5 {
+    position: relative;
+    top: 190px;
+    right: 200px;
+  }
+
+  .t6 {
+    position: relative;
+    top: 135px;
+    left: 200px;
+  }
+
+  .box-footer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+  }
+
+  .box-buy {
+    background: #000;
+    width: 100%;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 73px;
+  }
+
+  .buy {
+    font-size: 15px;
+    width: 110px;
+    background: #00bf63;
+    text-align: center;
+    border-radius: 100px;
+    color: #fff;
+    position: relative;
+    left: 50px;
+    top: 23%;
+    height: 30px;
+    line-height: 22.5px;
   }
 }
