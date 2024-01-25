@@ -1,0 +1,146 @@
+/*
+font-family: 'Ruda';font-size: 22px;
+font-family: 'Catamaran';font-size: 22px;
+font-family: 'Open Sans';font-size: 22px;
+*/
+
+.box-obj {
+    display: flex;
+    justify-content: center;
+}
+
+.obj {
+    height: 5px;
+    width: 90px;
+    background-color: black;
+    margin-top: 80px;
+    border-radius: 100px;
+}
+
+.box-title {
+    font-family: 'Ruda';
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 900;
+}
+
+
+.title {
+    margin: 0px;
+
+}
+
+.title-1 {
+    position: relative;
+    top: 10px;
+    margin-top: 25px;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.title-2 {
+    color: #B88940;
+    margin: 0px;
+    padding: 0px;
+    font-size: 100px;
+    letter-spacing: 15px;
+}
+
+.title-3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+
+.title-4 {
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'Catamaran';font-size: 22px;
+}
+
+.box-line {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ç
+}
+
+.line {
+    height: 50px;
+    width: 95vw;
+    background-color: #FFBD59;
+    margin: 25px;
+}
+
+.box-media {
+    position: relative;
+    display: flex;
+    margin: 25px;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.media {
+    height: 500px;
+    width: 500px;
+    object-fit: scale-down;
+}
+
+.media1 {
+    position: relative;
+    left: 170px;
+}
+
+.media3 {
+    position: relative;
+    right: 170px;
+}
+
+figcaption {
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.t1 {
+    position: relative;
+    left: 170px;
+}
+
+.t3 {
+    position: relative;
+    right: 170px;
+}
+
+.box-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 350px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-1 {
+    color: #B88940;
+    font-size: 80px;
+    letter-spacing: 5px;
+}
+
+.footer-2 {
+    position: relative;
+    bottom: 110px;
+    font-size: 30px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 200;
+}
