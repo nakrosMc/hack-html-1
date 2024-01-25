@@ -112,6 +112,7 @@
 .chairs-tx span {
   text-decoration: line-through;
   text-decoration-color: red;
+  margin-right: 10px;
 }
 
 .t1 {
@@ -186,13 +187,13 @@
   .box-header {
     background-size: 740px 1300px;
     width: 750px;
-    height: 500px;
+    height: 400px;
     bottom: 19px;
   }
 
   .bor {
     position: relative;
-    top: 90px;
+    top: 50px;
     left: 70px;
     background-color: #000;
     width: 120px;
@@ -207,7 +208,7 @@
 
   .title {
     position: relative;
-    top: 90px;
+    top: 40px;
     left: 70px;
     font-size: 20px;
     line-height: 60px;
@@ -217,14 +218,14 @@
     font-size: 17px;
     position: relative;
     left: 70px;
-    top: 80px;
+    top: 30px;
     width: 400px;
   }
 
   .green-ball {
     font-size: 30px;
     position: absolute;
-    top: 140px;
+    top: 90px;
     left: 470px;
     width: 180px;
     height: 180px;
@@ -251,7 +252,7 @@
     justify-content: center;
     position: relative;
     top: 100px;
-    margin-right: 60px;
+    margin-right: 110px;
   }
 
   .box-chairs-1 {
@@ -286,6 +287,7 @@
   .chairs-tx span {
     text-decoration: line-through;
     text-decoration-color: red;
+    margin-right: 20px;
   }
 
   .t1 {
@@ -328,15 +330,15 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 200px;
+    top: 150px;
+    margin-bottom: 250px;
   }
 
   .box-buy {
     background: #000;
-    width: 100%;
+    width: 83%;
     height: 100px;
-    margin-left: 20px;
-    margin-right: 73px;
+    margin-right: 110px;
   }
 
   .buy {
@@ -348,7 +350,7 @@
     color: #fff;
     position: relative;
     left: 50px;
-    top: 23%;
+    top: 19px;
     height: 30px;
     line-height: 22.5px;
   }
@@ -356,12 +358,12 @@
 
 @media (min-width: 1024px) {
   body {
-    overflow-x: ;
+    overflow-x: hidden;
   }
 
   .box-header {
-    background-size: 1900px 1800px;
-    width: 1870px;
+    background-size: 2100px 1800px;
+    width: 2300px;
     height: 700px;
     bottom: 35px;
   }
@@ -401,7 +403,7 @@
     font-size: 40px;
     position: absolute;
     top: 170px;
-    left: 1300px;
+    left: 1400px;
     width: 280px;
     height: 280px;
     background: #00bf63;
@@ -458,7 +460,6 @@
   .chairs-tx {
     position: absolute;
     font-size: 20px;
-    background: red;
   }
 
   .chairs-tx span {
@@ -476,59 +477,60 @@
   .t2 {
     position: relative;
     top: 280px;
-    left: px;
+    left: -100px;
   }
 
   .t3 {
     position: relative;
-    top: 40px;
-    left: 200px;
+    top: 214px;
+    left: 320px;
   }
 
   .t4 {
     position: relative;
-    top: 240px;
-    left: -15px;
+    top: 700px;
+    left: -470px;
   }
 
   .t5 {
     position: relative;
-    top: 190px;
-    right: 200px;
+    top: 634px;
+    right: 120px;
   }
 
   .t6 {
     position: relative;
-    top: 135px;
-    left: 200px;
+    top: 568px;
+    left: 310px;
   }
 
   .box-footer {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     position: relative;
-    top: 200px;
+    top: 300px;
+    width: 2500px;
   }
 
   .box-buy {
     background: #000;
-    width: 100%;
-    height: 100px;
-    margin-left: 20px;
-    margin-right: 73px;
+    width: 5000px;
+    height: 150px;
+    margin-left: 36px;
+    width: 2000px;
   }
 
   .buy {
-    font-size: 15px;
-    width: 110px;
+    font-size: 17px;
+    width: 150px;
     background: #00bf63;
     text-align: center;
     border-radius: 100px;
     color: #fff;
     position: relative;
-    left: 50px;
+    left: 150px;
     top: 23%;
-    height: 30px;
-    line-height: 22.5px;
+    height: 40px;
+    line-height: 34px;
   }
 }
